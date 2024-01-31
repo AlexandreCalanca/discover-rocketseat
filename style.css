@@ -1,3 +1,14 @@
 body {
-  background-image: url(/imagens/bg-desktop.jpg);
+  background: url(/imagens/bg-mobile.jpg) no-repeat top center/cover;
+}
+#conteiner {
+  width: 360px;
+  height: 712px;
+  border: 1px solid #fff;
+  margin: auto;
+}
+#perfil {
+  width: 112px;
+  height: 111px;
+  text-align: center;
 }
