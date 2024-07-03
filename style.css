@@ -1,4 +1,8 @@
 body{
   background: url(./imagens/bg-mobile.jpg) no-repeat top center/cover;
-  
+}
+#container{
+  width: 360px;
+  height: 712px;
+  margin: auto;
 }
