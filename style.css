@@ -5,6 +5,12 @@
   color: white;
   text-decoration: none;
 }
+:root {
+  --text-color: white;
+}
+.light{
+  background: url;
+}
 body{
   background: url(./imagens/bg-mobile.jpg) no-repeat top center/cover;
 }
@@ -12,6 +18,7 @@ body{
 body *{
   font-family: 'Inter', sans-serif;
   font-size: 14px;
+  color: var(--text-color);
 }
 
 #container{
@@ -27,7 +34,7 @@ body *{
 
 #profile h1{
   font-size: 16px;
-  color: rgb(255, 255, 255);
+  color: var(--text-color);
   line-height: 24px;
 }
 
@@ -53,5 +60,10 @@ ul li{
 }
 ul li:hover{
   background: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid white;
+  border: 1.5px solid var(--text-color);
+}
+footer{
+  color: var(--text-color);
+  padding: 24px 0px;
+  text-align: center;
 }
