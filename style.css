@@ -7,12 +7,14 @@
 }
 :root {
   --text-color: white;
+  --bg-url: url(./imagens/bg-mobile.jpg);
 }
 .light{
-  background: url;
+  --text-color: black;
+  --bg-url: url(./imagens/bg-mobile-light.jpg);
 }
 body{
-  background: url(./imagens/bg-mobile.jpg) no-repeat top center/cover;
+  background: var(--bg-url) no-repeat top center/cover;
 }
 
 body *{
@@ -52,7 +54,7 @@ ul li{
   justify-content: center;
   align-items: center;
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid white;
   backdrop-filter: blur(4px);
   border-radius: 10px;
   padding: 16px 24px;
@@ -60,7 +62,7 @@ ul li{
 }
 ul li:hover{
   background: rgba(255, 255, 255, 0.05);
-  border: 1.5px solid var(--text-color);
+  border: 1.5px solid black;
 }
 footer{
   color: var(--text-color);
